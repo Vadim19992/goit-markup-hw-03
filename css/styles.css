@@ -350,6 +350,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--accent-color);
+font-style: normal;
 } 
 
 .logo-footer-right {
@@ -359,6 +360,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+font-style: normal;
 }
 
 .footer-down:not(:last-child){
