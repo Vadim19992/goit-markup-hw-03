@@ -142,12 +142,14 @@ color: var(--accent-color);
 
 .main {
     background-color: var(--background-color-dark);
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .title {
@@ -245,6 +247,8 @@ color: #757575;
 }
 .banner-bagr {
     background: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .mid-banner-foto-profession {
@@ -317,8 +321,7 @@ align-items: center;
 
 .modal-btn:hover,
 .menu-link:focus {
-background-color: var(--accent-color);
-color: #FFFFFF;
+color: var(--accent-color);
 }
 
 .mid-img-header {
@@ -368,6 +371,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;  
 color: #FFFFFF;
+font-style: normal;
 }
 
 .footer-tel-mail {
@@ -376,6 +380,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+font-style: normal;
 }
 
 .footer {
